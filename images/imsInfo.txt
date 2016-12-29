@@ -1,0 +1,90 @@
+// imsInfo.txt images
+
+//g fighter  left.gif right.gif still.gif up.gif
+
+//s kaboom.gif 6
+
+n pt879-*.png 19
+
+//o titleButton2.png
+//o jwy0_title.png
+//o jwy0.jpg
+
+o icon_285_topup.png
+o icon_285_wifi.png
+o icon_285_voip.png
+o icon_285_barcode.png
+o icon_140_call_center.png
+
+o icon_140_green.png
+n icon_140_blue_*.png 3
+o icon_140_red.png
+o icon_140_orange.png
+o icon_140_purple.png
+o icon_140_gray.png
+o icon_285_gray.png
+
+o icon_285_orange.png
+o icon_285_blue.png
+o icon_285_green.png
+o icon_285_purple.png
+o icon_285_red.png
+
+n menu_btn_*.png 2
+n back_btn_*.png 2
+n home_btn_*.png 2
+
+n edit_left_top_*.png 2
+n edit_right_top_*.png 2
+o edit_left_bottom_0.png
+o edit_right_bottom_0.png
+o edit_top_1.png
+o step_bg.png
+n step_light_*.png 5
+o top_up_bg.jpg
+
+n btn_left_top_*.png 3
+n btn_right_top_*.png 3
+n btn_bottom_left_*.png 3
+n btn_bottom_right_*.png 3
+n btn_bottom_fix_*.png 3
+n btn_top_fix_*.png 3
+n btn_fill_*.png 3
+
+o busy.png
+
+o key_down.jpg
+o key_down2.jpg
+o key.jpg
+o key2.jpg
+o key_del.jpg
+o key_del_down.jpg
+o key_del2.jpg
+o key_del_down2.jpg
+o key_tip.png
+o key_del_tip.png
+o key_cl.jpg
+o key_cl_down.jpg
+o key_enter.jpg
+o key_enter_down.jpg
+o x.png
+o gtk-ok.png
+o dollar_need.png
+o panel_w2b.png
+o ais.png
+o blue_btn.png
+o blue_btn_2.png
+o op_mask.png
+o card.png
+n text_bar_*.png 2
+o sad.png
+o smile.png
+o speak_text.png
+n girl*.png 5
+
+o truemove_oval.png
+o 12call_oval.png
+o dtac_oval.png
+o dtac_logo.png
+o 12call_logo.png
+o truemove_logo.png

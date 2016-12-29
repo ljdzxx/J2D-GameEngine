@@ -1,0 +1,10 @@
+# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Eclipse generated folder
+/.settings/*
+/bin/*
+/.classpath
+/.project
