@@ -38,7 +38,7 @@ import java.awt.image.BufferStrategy;
 
 import com.j2d.controlers.IControler;
 
-public class PT879Canvas extends Canvas implements ICanvas {
+public class GameCanvas extends Canvas implements ICanvas {
 
 	private static final long serialVersionUID = 1L;
 
@@ -86,12 +86,12 @@ public class PT879Canvas extends Canvas implements ICanvas {
      */
   private static int MAX_FRAME_SKIPS = 5;
 
-	public PT879Canvas(IHandler handler, int width, int height,int fps) {
+	public GameCanvas(IHandler handler, int width, int height,int fps) {
 		fpsX=width/2-40;
 		format(handler, width, height,fps);
 	}
 
-	/*public PT879Canvas(int fps) {
+	/*public GameCanvas(int fps) {
 		format(LSystem.currentGameHandler, LSystem.WIDTH, LSystem.HEIGHT, fps);
 	}*/
 

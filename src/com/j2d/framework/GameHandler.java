@@ -34,9 +34,9 @@ import com.j2d.controlers.AbstractControler;
 import com.j2d.controlers.IControler;
 
 
-public class PT879Handler implements IHandler {
+public class GameHandler implements IHandler {
 
-	public PT879Handler() {
+	public GameHandler() {
 
 	}
 

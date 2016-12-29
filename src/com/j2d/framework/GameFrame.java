@@ -31,7 +31,7 @@ import java.awt.Frame;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-public class PT879Frame extends Frame implements Runnable {
+public class GameFrame extends Frame implements Runnable {
 	private static final long serialVersionUID = 1L;
 	private String titleName;
 	private Thread mainLoop;
@@ -40,13 +40,13 @@ public class PT879Frame extends Frame implements Runnable {
 	private DisplayMode normalMode;
 	private int fps;
 	
-	public PT879Frame(){}
+	public GameFrame(){}
 
-	public PT879Frame(String titleName, int width, int height, int fps) {
-		this(new PT879Handler(), titleName, width, height,fps);
+	public GameFrame(String titleName, int width, int height, int fps) {
+		this(new GameHandler(), titleName, width, height,fps);
 	}
 
-	public PT879Frame(IHandler handler, String titleName, int width, int height, int fps) {
+	public GameFrame(IHandler handler, String titleName, int width, int height, int fps) {
 		super(titleName);
 		addShutdownHook();
 		LSystem.currentGameHandler = handler;
@@ -178,7 +178,7 @@ public class PT879Frame extends Frame implements Runnable {
 	}
 
 	private void initCanvas(final int width, final int height) {
-		PT879Canvas pt879Canvas = new PT879Canvas(LSystem.currentGameHandler, width, height,this.fps);
+		GameCanvas pt879Canvas = new GameCanvas(LSystem.currentGameHandler, width, height,this.fps);
 		this.canvas = pt879Canvas;
 		this.canvas.startPaint();
 		this.add(pt879Canvas);

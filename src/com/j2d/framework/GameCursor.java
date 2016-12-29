@@ -27,7 +27,7 @@ package com.j2d.framework;
 import java.awt.Cursor;
 import java.awt.Image;
 
-public class PT879Cursor {
+public class GameCursor {
 
 	public static Cursor getCursor(String fileName) {
 		Image cursor = GraphicsUtils.loadImage(fileName);
